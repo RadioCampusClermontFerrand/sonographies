@@ -25,7 +25,7 @@ img {
     text-align: right;
     margin-top: -5px;
 }
-#page-header h1 .red {
+.red {
     color: #D90E22;
 }
 
@@ -39,4 +39,8 @@ img {
     #page-header h1 {
         font-size: 70px;
     }
+}
+
+html, body, .main, #content, #main-map {
+    height: 100%;
 }

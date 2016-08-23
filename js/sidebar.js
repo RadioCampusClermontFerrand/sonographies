@@ -13,6 +13,14 @@
 		}
 		
 	}
+	
+    function changeMap($selected) {
+        $("[data-collapse-group='maps']:not(#" + $selected + ")").each(function () {
+                    $(this).removeClass("visible").addClass('hidden');
+                    });
+        $("#" + $selected).removeClass("hidden").addClass('visible');
+    }
+    
 	$(document).ready(function () {
 		htmlbodyHeightUpdate()
 		$( window ).resize(function() {
@@ -22,4 +30,30 @@
 			height2 = $('.content').height()
   			htmlbodyHeightUpdate()
 		});
-	});
+                
+                $("[data-collapse-group='sidemenu']").click(function () {
+                    var $this = $(this);
+                    $("[data-collapse-group='sidemenu']:not([data-target='" + $this.data   ("target") + "'])").each(function () {
+                    $($(this).data("target")).removeClass("in").addClass('collapse');
+                    });
+                });
+                
+                $("#display-mainmap").click(function() {
+                    changeMap("main-map");
+                });
+                $("#display-glyphs").click(function() {
+                    changeMap("glyphs-map");
+                });        
+                $("#display-rocheblanche").click(function() {
+                    changeMap("rocheblanche-map");
+                });   
+                
+                                $("#display-glyphs-map").click(function() {
+                    changeMap("glyphs-map");
+                });
+                $("#display-rocheblanche-map").click(function() {
+                    changeMap("glyphs-map");
+                });
+
+            
+        });
