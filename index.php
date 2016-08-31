@@ -52,17 +52,18 @@
                                     <span class="icon-bar"></span>
                             </button>
                             <a class="navbar-brand" href="#">Écouter...</a>
+
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse <?php if ($balade != "") echo "in"; ?>" id="bs-sidebar-navbar-collapse-1">
 			<ul class="nav navbar-nav">
                             <li class="dropdown">
-					<a href="?b=#main" style="z-index: 1;" class="selected-menu" id="display-mainmap"><span class="pull-right">Voir toutes les balades sonores</span><span  style="font-size:16px;" class="showopacity glyphicon glyphicon-map-marker"></span></a>
+                                <a type="button" style="font-size:16px; z-index: 2; float: left;" class="showopacity glyphicon glyphicon-headphones main-play"></a>
+                                <a style="z-index: 2; float: left; cursor: pointer; " class="main-pause hide"><span style="font-size:16px; z-index: 2; float: left;" class="showopacity glyphicon glyphicon-pause"></span></a>
+					<a href="/#main" style="z-index: 1;" class="selected-menu" id="display-mainmap"><span class="pull-right">Voir toutes les balades sonores</span><span  style="font-size:16px;" class="showopacity glyphicon glyphicon-map-marker"></span></a>
                             </li>
                             <li class="dropdown">
-					<a type="button" style="font-size:16px; z-index: 2; float: left;" class="showopacity glyphicon glyphicon-headphones main-play"></a>
-					<a style="z-index: 2; float: left; cursor: pointer; " class="main-pause hide"><span style="font-size:16px; z-index: 2; float: left;" class="showopacity glyphicon glyphicon-pause"></span></a>
-					<a id="display-glyphs" href="?b=glyphs#main" style="z-index: 1;" class="selected-menu" data-toggle="collapse" data-target="#glyphs" data-collapse-group="sidemenu" <?php if ($balade == "glyphs") echo 'aria-expanded="true"'; ?>><span class="pull-right">La bibliothèque de glyphs</span><span  style="font-size:16px;" class="showopacity glyphicon glyphicon-map-marker"></span></a>
+					<a id="display-glyphs" href="/glyphs#main" style="z-index: 1;" class="selected-menu" data-toggle="collapse" data-target="#glyphs" data-collapse-group="sidemenu" <?php if ($balade == "glyphs") echo 'aria-expanded="true"'; ?>><span class="pull-right">La bibliothèque de glyphs</span><span  style="font-size:16px;" class="showopacity glyphicon glyphicon-map-marker"></span></a>
 					<ul class="list-group playlist <?php if ($balade == "glyphs") echo "in"; else echo "collapse"; ?>" style="clear: left;" id="glyphs">
                                             <li class="list-group-item"><p>Clermont-Ferrand 2043, la ville est sous les eaux... une jeune femme retourne sur les lieux de son enfance et entraîne l’auditeur-promeneur dans sa redécouverte du quartier Saint-Jacques à travers 5 pastilles sonores.</p>
                                             </li>
@@ -150,11 +151,81 @@
 					</ul>
                             </li>
                             <li class="dropdown">
-					<a type="button" style="font-size:16px; z-index: 2; float: left;" class="showopacity glyphicon glyphicon-headphones main-play"></a>
-					<a style="z-index: 2; float: left; cursor: pointer; " class="main-pause hide"><span style="font-size:16px; z-index: 2; float: left;" class="showopacity glyphicon glyphicon-pause"></span></a>
-					<a id="display-rocheblanche" href="?b=rocheblanche#main" style="z-index: 1;" class="dropdown-toggle selected-menu" data-toggle="collapse" data-target="#rocheblanche"  data-collapse-group="sidemenu" <?php if ($balade == "rocheblanche") echo 'aria-expanded="true"'; ?>><span class="pull-right"> La Roche Blanche</span><span  style="font-size:16px;" class="showopacity glyphicon glyphicon-map-marker"></span></a>
+					<a id="display-rocheblanche" href="/rocheblanche#main" style="z-index: 1;" class="dropdown-toggle selected-menu" data-toggle="collapse" data-target="#rocheblanche"  data-collapse-group="sidemenu" <?php if ($balade == "rocheblanche") echo 'aria-expanded="true"'; ?>><span class="pull-right"> La Roche Blanche</span><span  style="font-size:16px;" class="showopacity glyphicon glyphicon-map-marker"></span></a>
 					<ul class="list-group playlist <?php if ($balade == "rocheblanche") echo "in"; else echo "collapse"; ?>" style="clear: left;" id="rocheblanche">
-                                            <li class="list-group-item"><p>Prochainement disponible en ligne, une balade sonore à la Roche Blanche.</p>
+                                            <li class="list-group-item"><p>Une balade sonore à la Roche Blanche.</p>
+                                            </li>
+                                            <li role="separator" class="divider"></li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 1 
+                                                            <span id="timer-b2p1">
+                                                                <span id="currentTime-b2p1">00:00</span> / 
+                                                                <span id="duration-b2p1">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade2/Roche Blanche_Pastille 1.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b2p1"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b2p1-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 2 
+                                                            <span id="timer-b2p2">
+                                                                <span id="currentTime-b2p2">00:00</span> / 
+                                                                <span id="duration-b2p2">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade2/Roche Blanche_Pastille 2.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b2p2"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b2p2-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 3 
+                                                            <span id="timer-b2p3">
+                                                                <span id="currentTime-b2p3">00:00</span> / 
+                                                                <span id="duration-b2p3">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade2/Roche Blanche_Pastille 3.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b2p3"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b2p3-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 4
+                                                            <span id="timer-b2p4">
+                                                                <span id="currentTime-b2p4">00:00</span> / 
+                                                                <span id="duration-b2p4">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade2/Roche Blanche_Pastille 4.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b2p4"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b2p4-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>              
+                                            </li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 5
+                                                            <span id="timer-b2p5">
+                                                                <span id="currentTime-b2p5">00:00</span> / 
+                                                                <span id="duration-b2p5">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade2/Roche Blanche_Pastille 5.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b2p5"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b2p5-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>                                            
+                                            </li>
+                                            <li role="separator" class="divider"></li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                    <div class="list-group-item entry-1button">Télécharger toutes les pastilles</div>
+                                                    <a href="balade2/sonographies - la roche blanche.zip" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    </div>
+                                            </li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                    <div class="list-group-item entry-1button">Télécharger la carte à imprimer</div>
+                                                    <a href="balade2/SonographiesRocheBlanche.pdf" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    </div>
                                             </li>
                                             <li role="separator" class="divider"></li>
                                             <li class="list-group-item">
@@ -164,7 +235,7 @@
                                                     <strong>Voix comédien&nbsp;:</strong> Clément Paré<br />
                                                     <strong>Design graphique&nbsp;:</strong> Philippe Gaujard<br />
                                                     <strong>Production&nbsp;:</strong> <a href="http://campus-clermont.net">Radio Campus Clermont-Ferrand</a>, <a href="http://www.ot-gergovie.fr/">Gergovie val d'Allier</a>, <a href="http://www.mairie-larocheblanche.fr/">mairie de La Roche Blanche</a><br />
-                                                    <strong>Création prévue</strong> en septembre 2016
+                                                    <strong>Création&nbsp;:</strong> septembre 2016
                                                     </p>
                                                 <p class="comment">45° 42' 7.033 - 3° 7' 45.29 <a href="http://www.openstreetmap.org/?mlat=45.7019536&mlon=3.1292472#map=16/45.7019536/3.1292472"><span class="showopacity glyphicon glyphicon-map-marker"></span></a></p>
                                             </li>
@@ -188,8 +259,8 @@
   <div class="main">
     <div id="content">
         <div data-collapse-group="maps" id="main-map" class="<?php if ($balade == "") echo "visible"; else echo "hidden"; ?>"></div>
-        <img data-collapse-group="maps" id="glyphs-map" src="images/carte_web-01.jpg" class="img-content <?php if ($balade == "glyphs") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
-        <div data-collapse-group="maps" id="rocheblanche-map" class="<?php if ($balade == "rocheblanche") echo "visible"; else echo "hidden"; ?>">Bientôt disponible...</div>
+        <img data-collapse-group="maps" id="glyphs-map" src="balade1/carte_web-01.jpg" class="img-content <?php if ($balade == "glyphs") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
+        <img data-collapse-group="maps" id="rocheblanche-map" src="balade2/larocheblanche.png" class="img-content <?php if ($balade == "rocheblanche") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
     </div>
     <div id="page-header">
     <h1><span class="red">SONO</span>GRAPHIES<small>balades sonores</small></h1>

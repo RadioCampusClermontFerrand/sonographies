@@ -20,10 +20,18 @@ $(document).ready(function(){
 /* build a list of tracks */
 
 var tracks = { "b1p1": "balade1/1 pastille.mp3",
-                       "b1p2": "balade1/2 pastille.mp3", 
-                       "b1p3": "balade1/3 pastille.mp3",
-                       "b1p4": "balade1/4 pastille.mp3",
-                       "b1p5": "balade1/5 pastille.mp3" };
+                "b1p2": "balade1/2 pastille.mp3", 
+                "b1p3": "balade1/3 pastille.mp3",
+                "b1p4": "balade1/4 pastille.mp3",
+                "b1p5": "balade1/5 pastille.mp3",
+
+                "b2p1": "balade2/Roche Blanche_Pastille 1.mp3",
+                "b2p2": "balade2/Roche Blanche_Pastille 2.mp3",
+                "b2p3": "balade2/Roche Blanche_Pastille 3.mp3",
+                "b2p4": "balade2/Roche Blanche_Pastille 4.mp3",
+                "b2p5": "balade2/Roche Blanche_Pastille 5.mp3"
+                
+};
                        
 var selected = "";
                        
