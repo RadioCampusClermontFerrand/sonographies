@@ -153,7 +153,8 @@
                             <li class="dropdown">
 					<a id="display-rocheblanche" href="/rocheblanche#main" style="z-index: 1;" class="dropdown-toggle selected-menu" data-toggle="collapse" data-target="#rocheblanche"  data-collapse-group="sidemenu" <?php if ($balade == "rocheblanche") echo 'aria-expanded="true"'; ?>><span class="pull-right"> La Roche Blanche</span><span  style="font-size:16px;" class="showopacity glyphicon glyphicon-map-marker"></span></a>
 					<ul class="list-group playlist <?php if ($balade == "rocheblanche") echo "in"; else echo "collapse"; ?>" style="clear: left;" id="rocheblanche">
-                                            <li class="list-group-item"><p>Une balade sonore à la Roche Blanche.</p>
+                                            <li class="list-group-item"><p>Balade sonore dans le village&nbsp;: deux classes de l’école Jules Ferry  et 1 comédien vous emmènent en balade enregistrée, entre imaginaire et réalité, et vous racontent le territoire de façon inattendue. Venez (re)découvrir le village comme vous ne l’avez jamais entendu&nbsp;!</p>
+                                            <p>Inauguration officielle le samedi 17 septembre 2016 pour les Journées Européennes du Patrimoine 2016 à 10h. Balades à 10h30 le 17/09 et 15h30 le 18/09. Durée 1h15, prévoir de bonnes chaussures.</p>
                                             </li>
                                             <li role="separator" class="divider"></li>
                                             <li class="list-group-item"><div class="list-group-horizontal">
@@ -230,11 +231,11 @@
                                             <li role="separator" class="divider"></li>
                                             <li class="list-group-item">
                                                 <p>École Jules Ferry - La Roche Blanche - Année 2015/2016<br />
-                                                    <strong>Réalisation&nbsp;:</strong> classes de CE2 - CM1<br />
-                                                    <strong>Montage sonore&nbsp;:</strong> Hélène Passet<br />
+                                                    <strong>Réalisation&nbsp;:</strong> classes de CE2 - CM1 sous la direction de Hélène Passet<br />
+                                                    <strong>Création et montage sonore&nbsp;:</strong> Hélène Passet<br />
                                                     <strong>Voix comédien&nbsp;:</strong> Clément Paré<br />
                                                     <strong>Design graphique&nbsp;:</strong> Philippe Gaujard<br />
-                                                    <strong>Production&nbsp;:</strong> <a href="http://campus-clermont.net">Radio Campus Clermont-Ferrand</a>, <a href="http://www.ot-gergovie.fr/">Gergovie val d'Allier</a>, <a href="http://www.mairie-larocheblanche.fr/">mairie de La Roche Blanche</a><br />
+                                                    <strong>Production&nbsp;:</strong> <a href="http://campus-clermont.net">Radio Campus Clermont-Ferrand</a>, Office de Tourisme <a href="http://www.ot-gergovie.fr/">Gergovie val d'Allier</a>, <a href="http://www.mairie-larocheblanche.fr/">mairie de La Roche Blanche</a><br />
                                                     <strong>Création&nbsp;:</strong> septembre 2016
                                                     </p>
                                                 <p class="comment">45° 42' 7.033 - 3° 7' 45.29 <a href="http://www.openstreetmap.org/?mlat=45.7019536&mlon=3.1292472#map=16/45.7019536/3.1292472"><span class="showopacity glyphicon glyphicon-map-marker"></span></a></p>
