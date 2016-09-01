@@ -16,14 +16,14 @@ var mymap = L.map('main-map').setView([45.7537, 3.1136], 13);
 			color: '#D90E22',
 			fillColor: '#D90E22',
 			fillOpacity: 0.5
-		}).addTo(mymap).bindPopup("<strong><a href=\"?b=glyphs\" id=\"display-glyphs-map\">La bibliothèque de Glyphs</a></strong><br />Clermont-Ferrand 2043, la ville est sous les eaux... une jeune femme retourne sur les lieux de son enfance et entraîne l’auditeur-promeneur dans sa redécouverte du quartier Saint-Jacques à travers 5 pastilles sonores.");
+		}).addTo(mymap).bindPopup("<strong><a href=\"/glyphs\" id=\"display-glyphs-map\">La bibliothèque de Glyphs</a></strong><br />Clermont-Ferrand 2043, la ville est sous les eaux... une jeune femme retourne sur les lieux de son enfance et entraîne l’auditeur-promeneur dans sa redécouverte du quartier Saint-Jacques à travers 5 pastilles sonores.");
 
 
 		rocheblanche = new L.circle([45.70160, 3.12975], 200, {
 			color: '#D90E22',
 			fillColor: '#D90E22',
 			fillOpacity: 0.5
-		}).addTo(mymap).bindPopup("<strong><a href=\"?b=rocheblanche\" id=\"display-rocheblanche-map\">La Roche Blanche</a></strong><br />");
+		}).addTo(mymap).bindPopup("<strong><a href=\"/rocheblanche\" id=\"display-rocheblanche-map\">La Roche Blanche</a></strong><br />Balade sonore dans le village&nbsp;: deux classes de l’école Jules Ferry  et 1 comédien vous emmènent en balade enregistrée, entre imaginaire et réalité, et vous racontent le territoire de façon inattendue. Venez (re)découvrir le village comme vous ne l’avez jamais entendu&nbsp;!");
                 
                 var group = new L.featureGroup([campus, glyphs, rocheblanche]);
 
