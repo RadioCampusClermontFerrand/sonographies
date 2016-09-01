@@ -260,7 +260,7 @@
   <div class="main">
     <div id="content">
         <div data-collapse-group="maps" id="main-map" class="<?php if ($balade == "") echo "visible"; else echo "hidden"; ?>"></div>
-        <img data-collapse-group="maps" id="glyphs-map" src="balade1/carte_web-01.jpg" class="img-content <?php if ($balade == "glyphs") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
+        <img data-collapse-group="maps" id="glyphs-map" src="balade1/Parcours.png" class="img-content <?php if ($balade == "glyphs") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
         <img data-collapse-group="maps" id="rocheblanche-map" src="balade2/larocheblanche.png" class="img-content <?php if ($balade == "rocheblanche") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
     </div>
     <div id="page-header">
