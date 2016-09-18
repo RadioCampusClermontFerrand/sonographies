@@ -34,9 +34,9 @@
     <link href="css/map.css" rel="stylesheet"></link>
     <link href="css/main.css" rel="stylesheet"></link>
     
-    <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
 
-    <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
 
   </head>
   <body>  
@@ -75,7 +75,7 @@
                                                             <span id="duration-b1p1">-</span>
                                                         </span>
                                                     </div>
-                                                    <a href="balade1/1 pastille.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    <a href="balade1/1 pastille.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                     <a class="list-group-item pull-right play" id="b1p1"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                     <a class="list-group-item pull-right pause hide" id="b1p1-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
@@ -87,7 +87,7 @@
                                                             <span id="duration-b1p2">-</span>
                                                         </span>
                                                     </div>
-                                                    <a href="balade1/2 pastille.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    <a href="balade1/2 pastille.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                     <a class="list-group-item pull-right play" id="b1p2"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                     <a class="list-group-item pull-right pause hide" id="b1p2-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
@@ -99,7 +99,7 @@
                                                             <span id="duration-b1p3">-</span>
                                                         </span>
                                                     </div>
-                                                    <a href="balade1/3 pastille.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    <a href="balade1/3 pastille.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                     <a class="list-group-item pull-right play" id="b1p3"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                     <a class="list-group-item pull-right pause hide" id="b1p3-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
@@ -111,7 +111,7 @@
                                                             <span id="duration-b1p4">-</span>
                                                         </span>
                                                     </div>
-                                                    <a href="balade1/4 pastille.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    <a href="balade1/4 pastille.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                     <a class="list-group-item pull-right play" id="b1p4"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                     <a class="list-group-item pull-right pause hide" id="b1p4-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                 </div>
@@ -123,7 +123,7 @@
                                                             <span id="duration-b1p5">-</span>
                                                         </span>
                                                     </div>
-                                                    <a href="balade1/5 pastille.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    <a href="balade1/5 pastille.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                     <a class="list-group-item pull-right play" id="b1p5"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                     <a class="list-group-item pull-right pause hide" id="b1p5-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
@@ -158,61 +158,61 @@
                                             </li>
                                             <li role="separator" class="divider"></li>
                                             <li class="list-group-item"><div class="list-group-horizontal">
-                                                        <div class="list-group-item entry-2buttons">Pastille 1 
+                                                        <div class="list-group-item entry-2buttons">Pastille 1 <span class="titre-pastille">Fontaine Napoléon III</span>
                                                             <span id="timer-b2p1">
                                                                 <span id="currentTime-b2p1">00:00</span> / 
                                                                 <span id="duration-b2p1">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/Roche Blanche_Pastille 1.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/pastille 1 Fontaine Napoléon III - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p1"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p1-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
                                             </li>
                                             <li class="list-group-item"><div class="list-group-horizontal">
-                                                        <div class="list-group-item entry-2buttons">Pastille 2 
+                                                        <div class="list-group-item entry-2buttons">Pastille 2 <span class="titre-pastille">Ancien bassin Mairie</span>
                                                             <span id="timer-b2p2">
                                                                 <span id="currentTime-b2p2">00:00</span> / 
                                                                 <span id="duration-b2p2">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/Roche Blanche_Pastille 2.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/pastille 2 Ancien bassin Mairie - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p2"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p2-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
                                             </li>
                                             <li class="list-group-item"><div class="list-group-horizontal">
-                                                        <div class="list-group-item entry-2buttons">Pastille 3 
+                                                        <div class="list-group-item entry-2buttons">Pastille 3 <span class="titre-pastille">Grottes et Tour Julia</span>
                                                             <span id="timer-b2p3">
                                                                 <span id="currentTime-b2p3">00:00</span> / 
                                                                 <span id="duration-b2p3">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/Roche Blanche_Pastille 3.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/pastille 3 Grottes et Tour Julia - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p3"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p3-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
                                             </li>
                                             <li class="list-group-item"><div class="list-group-horizontal">
-                                                        <div class="list-group-item entry-2buttons">Pastille 4
+                                                        <div class="list-group-item entry-2buttons">Pastille 4 <span class="titre-pastille">Auzon et Géographie</span>
                                                             <span id="timer-b2p4">
                                                                 <span id="currentTime-b2p4">00:00</span> / 
                                                                 <span id="duration-b2p4">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/Roche Blanche_Pastille 4.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/pastille 4 Auzon et Géographie - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p4"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p4-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>              
                                             </li>
                                             <li class="list-group-item"><div class="list-group-horizontal">
-                                                        <div class="list-group-item entry-2buttons">Pastille 5
+                                                        <div class="list-group-item entry-2buttons">Pastille 5 <span class="titre-pastille">Fontaines</span>
                                                             <span id="timer-b2p5">
                                                                 <span id="currentTime-b2p5">00:00</span> / 
                                                                 <span id="duration-b2p5">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/Roche Blanche_Pastille 5.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/pastille 5 Fontaines - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p5"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p5-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>                                            

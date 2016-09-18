@@ -208,3 +208,9 @@
             float: right;
             display: none;
         }
+        
+        .entry-2buttons > span.titre-pastille {
+                display: inline !important;
+                font-size: 70%;
+                float: none;
+        }
