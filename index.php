@@ -164,7 +164,7 @@
                                                                 <span id="duration-b2p1">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/pastille 1 Fontaine Napoléon III - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/1 Fontaine Napoléon III - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p1"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p1-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
@@ -176,7 +176,7 @@
                                                                 <span id="duration-b2p2">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/pastille 2 Ancien bassin Mairie - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/2 Ancien bassin Mairie - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p2"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p2-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
@@ -188,7 +188,7 @@
                                                                 <span id="duration-b2p3">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/pastille 3 Grottes et Tour Julia - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/3 Grottes et Tour Julia - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p3"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p3-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
@@ -200,7 +200,7 @@
                                                                 <span id="duration-b2p4">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/pastille 4 Auzon et Géographie - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/4 Auzon et Géographie - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p4"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p4-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>              
@@ -212,7 +212,7 @@
                                                                 <span id="duration-b2p5">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/pastille 5 Fontaines - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/5 Fontaines - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p5"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p5-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>                                            
