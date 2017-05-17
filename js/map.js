@@ -24,8 +24,14 @@ var mymap = L.map('main-map').setView([45.7537, 3.1136], 13);
 			fillColor: '#D90E22',
 			fillOpacity: 0.5
 		}).addTo(mymap).bindPopup("<strong><a href=\"/rocheblanche\" id=\"display-rocheblanche-map\">La Roche Blanche</a></strong><br />Balade sonore dans le village&nbsp;: deux classes de l’école Jules Ferry  et 1 comédien vous emmènent en balade enregistrée, entre imaginaire et réalité, et vous racontent le territoire de façon inattendue. Venez (re)découvrir le village comme vous ne l’avez jamais entendu&nbsp;!");
-                
-                var group = new L.featureGroup([campus, glyphs, rocheblanche]);
+
+				rocheblanche = new L.circle([45.78131, 3.07985], 200, {
+			color: '#D90E22',
+			fillColor: '#D90E22',
+			fillOpacity: 0.5
+		}).addTo(mymap).bindPopup("<strong><a href=\"/tiretaine\" id=\"display-tiretaine-map\">La Tiretaine</a></strong><br />Laissez-vous guider dans une fiction de création sonore réalisée par les étudiants de l'atelier du SUC, autour de la Tiretaine");
+
+                var group = new L.featureGroup([campus, glyphs, rocheblanche, tiretaine]);
 
                 mymap.fitBounds(group.getBounds());
 

@@ -25,11 +25,18 @@ var tracks = { "b1p1": "balade1/1 pastille.mp3",
                 "b1p4": "balade1/4 pastille.mp3",
                 "b1p5": "balade1/5 pastille.mp3",
 
-                "b2p1": "balade2/Roche Blanche_Pastille 1.mp3",
-                "b2p2": "balade2/Roche Blanche_Pastille 2.mp3",
-                "b2p3": "balade2/Roche Blanche_Pastille 3.mp3",
-                "b2p4": "balade2/Roche Blanche_Pastille 4.mp3",
-                "b2p5": "balade2/Roche Blanche_Pastille 5.mp3"
+                "b2p1": "balade2/1 Fontaine Napoléon III - la roche blanche.mp3",
+                "b2p2": "balade2/2 Ancien bassin Mairie - la roche blanche.mp3",
+                "b2p3": "balade2/3 Grottes et Tour Julia - la roche blanche.mp3",
+                "b2p4": "balade2/4 Auzon et Géographie - la roche blanche.mp3",
+                "b2p5": "balade2/5 Fontaines - la roche blanche.mp3",
+								
+                "b3p1": "balade3/1- pastille le moulin.mp3",
+                "b3p2": "balade3/2- pastille collège.mp3",
+                "b3p3": "balade3/3- pastille la fontaine.mp3",
+                "b3p4": "balade3/4- pastille l'église.mp3",
+                "b3p5": "balade3/5- pastille quartier calme.mp3",
+                "b3p6": "balade3/6- pastille le port.mp3",
                 
 };
                        

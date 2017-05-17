@@ -9,6 +9,9 @@
         else if ($balade == "glyphs") {
             $balade_fullname = "La bibliothèque des glyphs";        
         }
+        else if ($balade == "tiretaine") {
+            $balade_fullname = "La Tiretaine";        
+        }
         else {
             $balade = "";
             $balade_fullname = "";
@@ -75,7 +78,7 @@
                                                             <span id="duration-b1p1">-</span>
                                                         </span>
                                                     </div>
-                                                    <a href="balade1/1 pastille.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    <a href="balade1/1 pastille.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                     <a class="list-group-item pull-right play" id="b1p1"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                     <a class="list-group-item pull-right pause hide" id="b1p1-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
@@ -87,7 +90,7 @@
                                                             <span id="duration-b1p2">-</span>
                                                         </span>
                                                     </div>
-                                                    <a href="balade1/2 pastille.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    <a href="balade1/2 pastille.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                     <a class="list-group-item pull-right play" id="b1p2"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                     <a class="list-group-item pull-right pause hide" id="b1p2-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
@@ -99,7 +102,7 @@
                                                             <span id="duration-b1p3">-</span>
                                                         </span>
                                                     </div>
-                                                    <a href="balade1/3 pastille.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    <a href="balade1/3 pastille.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                     <a class="list-group-item pull-right play" id="b1p3"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                     <a class="list-group-item pull-right pause hide" id="b1p3-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
@@ -111,7 +114,7 @@
                                                             <span id="duration-b1p4">-</span>
                                                         </span>
                                                     </div>
-                                                    <a href="balade1/4 pastille.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    <a href="balade1/4 pastille.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                     <a class="list-group-item pull-right play" id="b1p4"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                     <a class="list-group-item pull-right pause hide" id="b1p4-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                 </div>
@@ -123,7 +126,7 @@
                                                             <span id="duration-b1p5">-</span>
                                                         </span>
                                                     </div>
-                                                    <a href="balade1/5 pastille.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    <a href="balade1/5 pastille.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                     <a class="list-group-item pull-right play" id="b1p5"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                     <a class="list-group-item pull-right pause hide" id="b1p5-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
@@ -154,65 +157,64 @@
 					<a id="display-rocheblanche" href="/rocheblanche#main" style="z-index: 1;" class="dropdown-toggle selected-menu" data-toggle="collapse" data-target="#rocheblanche"  data-collapse-group="sidemenu" <?php if ($balade == "rocheblanche") echo 'aria-expanded="true"'; ?>><span class="pull-right"> La Roche Blanche</span><span  style="font-size:16px;" class="showopacity glyphicon glyphicon-map-marker"></span></a>
 					<ul class="list-group playlist <?php if ($balade == "rocheblanche") echo "in"; else echo "collapse"; ?>" style="clear: left;" id="rocheblanche">
                                             <li class="list-group-item"><p>Balade sonore dans le village&nbsp;: deux classes de l’école Jules Ferry  et 1 comédien vous emmènent en balade enregistrée, entre imaginaire et réalité, et vous racontent le territoire de façon inattendue. Venez (re)découvrir le village comme vous ne l’avez jamais entendu&nbsp;!</p>
-                                            <p>Inauguration officielle le samedi 17 septembre 2016 pour les Journées Européennes du Patrimoine 2016 à 10h. Balades à 10h30 le 17/09 et 15h30 le 18/09. Durée 1h15, prévoir de bonnes chaussures.</p>
                                             </li>
                                             <li role="separator" class="divider"></li>
                                             <li class="list-group-item"><div class="list-group-horizontal">
-                                                        <div class="list-group-item entry-2buttons">Pastille 1 
+                                                        <div class="list-group-item entry-2buttons">Pastille 1 <span class="titre-pastille">Fontaine Napoléon III</span>
                                                             <span id="timer-b2p1">
                                                                 <span id="currentTime-b2p1">00:00</span> / 
                                                                 <span id="duration-b2p1">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/Roche Blanche_Pastille 1.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/1 Fontaine Napoléon III - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p1"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p1-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
                                             </li>
                                             <li class="list-group-item"><div class="list-group-horizontal">
-                                                        <div class="list-group-item entry-2buttons">Pastille 2 
+                                                        <div class="list-group-item entry-2buttons">Pastille 2 <span class="titre-pastille">Ancien bassin Mairie</span>
                                                             <span id="timer-b2p2">
                                                                 <span id="currentTime-b2p2">00:00</span> / 
                                                                 <span id="duration-b2p2">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/Roche Blanche_Pastille 2.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/2 Ancien bassin Mairie - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p2"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p2-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
                                             </li>
                                             <li class="list-group-item"><div class="list-group-horizontal">
-                                                        <div class="list-group-item entry-2buttons">Pastille 3 
+                                                        <div class="list-group-item entry-2buttons">Pastille 3 <span class="titre-pastille">Grottes et Tour Julia</span>
                                                             <span id="timer-b2p3">
                                                                 <span id="currentTime-b2p3">00:00</span> / 
                                                                 <span id="duration-b2p3">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/Roche Blanche_Pastille 3.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/3 Grottes et Tour Julia - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p3"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p3-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>
                                             </li>
                                             <li class="list-group-item"><div class="list-group-horizontal">
-                                                        <div class="list-group-item entry-2buttons">Pastille 4
+                                                        <div class="list-group-item entry-2buttons">Pastille 4 <span class="titre-pastille">Auzon et Géographie</span>
                                                             <span id="timer-b2p4">
                                                                 <span id="currentTime-b2p4">00:00</span> / 
                                                                 <span id="duration-b2p4">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/Roche Blanche_Pastille 4.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/4 Auzon et Géographie - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p4"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p4-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>              
                                             </li>
                                             <li class="list-group-item"><div class="list-group-horizontal">
-                                                        <div class="list-group-item entry-2buttons">Pastille 5
+                                                        <div class="list-group-item entry-2buttons">Pastille 5 <span class="titre-pastille">Fontaines</span>
                                                             <span id="timer-b2p5">
                                                                 <span id="currentTime-b2p5">00:00</span> / 
                                                                 <span id="duration-b2p5">-</span>
                                                             </span>
                                                         </div>
-                                                        <a href="balade2/Roche Blanche_Pastille 5.mp3" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a href="balade2/5 Fontaines - la roche blanche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
                                                         <a class="list-group-item pull-right play" id="b2p5"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
                                                         <a class="list-group-item pull-right pause hide" id="b2p5-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
                                                     </div>                                            
@@ -242,6 +244,110 @@
                                             </li>
 					</ul>
                             </li>
+
+                           <li class="dropdown">
+					<a id="display-tiretaine" href="/tiretaine#main" style="z-index: 1;" class="dropdown-toggle selected-menu" data-toggle="collapse" data-target="#tiretaine"  data-collapse-group="sidemenu" <?php if ($balade == "tiretaine") echo 'aria-expanded="true"'; ?>><span class="pull-right"> La Tiretaine</span><span  style="font-size:16px;" class="showopacity glyphicon glyphicon-map-marker"></span></a>
+					<ul class="list-group playlist <?php if ($balade == "tiretaine") echo "in"; else echo "collapse"; ?>" style="clear: left;" id="tiretaine">
+                                            <li class="list-group-item"><p>Laissez-vous guider dans une fiction de création sonore réalisée par les étudiants de l'atelier du SUC, autour de la Tiretaine.</p>
+                                            <p>Inauguration officielle le 30 mai 2017, départ à 18h square Bompart.</p>
+                                            </li>
+                                            <li role="separator" class="divider"></li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 1 <span class="titre-pastille">Le moulin</span>
+                                                            <span id="timer-b3p1">
+                                                                <span id="currentTime-b3p1">00:00</span> / 
+                                                                <span id="duration-b3p1">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade3/1- pastille le moulin.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b3p1"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b3p1-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 2 <span class="titre-pastille">Le collège</span>
+                                                            <span id="timer-b3p2">
+                                                                <span id="currentTime-b3p2">00:00</span> / 
+                                                                <span id="duration-b3p2">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade3/2- pastille collège.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b3p2"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b3p2-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 3 <span class="titre-pastille">La fontaine</span>
+                                                            <span id="timer-b3p3">
+                                                                <span id="currentTime-b3p3">00:00</span> / 
+                                                                <span id="duration-b3p3">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade3/3- pastille la fontaine.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b3p3"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b3p3-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 4 <span class="titre-pastille">L'église</span>
+                                                            <span id="timer-b3p4">
+                                                                <span id="currentTime-b3p4">00:00</span> / 
+                                                                <span id="duration-b3p4">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade3/4- pastille l'église.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b3p4"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b3p4-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>              
+                                            </li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 5 <span class="titre-pastille">Quartier calme</span>
+                                                            <span id="timer-b3p5">
+                                                                <span id="currentTime-b3p5">00:00</span> / 
+                                                                <span id="duration-b3p5">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade3/5- pastille quartier calme.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b3p5"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b3p5-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>                                            
+                                            </li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 6 <span class="titre-pastille">Le port</span>
+                                                            <span id="timer-b3p6">
+                                                                <span id="currentTime-b3p6">00:00</span> / 
+                                                                <span id="duration-b3p6">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade3/6- pastille le port.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b3p6"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b3p6-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>                                            
+                                            </li>
+                                            <li role="separator" class="divider"></li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                    <div class="list-group-item entry-1button">Télécharger toutes les pastilles</div>
+                                                    <a href="balade3/la tiretaine.zip" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    </div>
+                                            </li>
+                                            <!-- li class="list-group-item"><div class="list-group-horizontal">
+                                                    <div class="list-group-item entry-1button">Télécharger la carte à imprimer</div>
+                                                    <a href="balade2/SonographiesRocheBlanche.pdf" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    </div>
+                                            </li -->
+                                            <li role="separator" class="divider"></li>
+                                            <li class="list-group-item">
+                                                <p>Atelier du SUC - Radio Campus Clermont-Ferrand Année 2016/2017<br />
+                                                    <strong>Réalisation&nbsp;:</strong> Alexia Carron-Bogacz, Thibaud Déchance, Charlène Dosio, Loriane Gauthier, Nina Guyot, Manon Le Bourhis, Simon Quentin et Julie Tuffery, étudiants de l'atelier du SUC création sonore<br />
+                                                    <strong>Voix comédien&nbsp;:</strong> Simon Quentin<br />
+                                                    <strong>Design graphique&nbsp;:</strong> Jean-Marie Favreau<br />
+                                                    <strong>Production&nbsp;:</strong> <a href="http://campus-clermont.net">Radio Campus Clermont-Ferrand</a>, <a href="https://culture.clermont-universite.fr/">Service Université Culture</a> de l'Université Clermont Auvergne, avec le soutien de la <a href="https://clermont-ferrand.fr/">ville de Clermont-Ferrand</a><br />
+                                                    <strong>Création&nbsp;:</strong> mai 2017
+                                                    </p>
+                                                <p class="comment">45° 46' 52.72 - 3° 4' 47.46 <a href="http://www.openstreetmap.org/?mlat=45.78131&amp;mlon=3.07985"><span class="showopacity glyphicon glyphicon-map-marker"></span></a></p>
+                                            </li>
+																		</ul>
+                            </li>
                             <li role="separator" class="divider"></li>
                             <li class="dropdown">
 					<a href="#" class="dropdown-toggle" ><span style="font-size:16px;" class="showopacity glyphicon glyphicon-info-sign"></span><span class="pull-right">Crédits</span></a>
@@ -262,6 +368,7 @@
         <div data-collapse-group="maps" id="main-map" class="<?php if ($balade == "") echo "visible"; else echo "hidden"; ?>"></div>
         <img data-collapse-group="maps" id="glyphs-map" src="balade1/Parcours.png" class="img-content <?php if ($balade == "glyphs") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
         <img data-collapse-group="maps" id="rocheblanche-map" src="balade2/larocheblanche.png" class="img-content <?php if ($balade == "rocheblanche") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
+        <img data-collapse-group="maps" id="tiretaine-map" src="balade3/tiretaine-site.png" class="img-content <?php if ($balade == "tiretaine") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
     </div>
     <div id="page-header">
     <h1><span class="red">SONO</span>GRAPHIES<small>balades sonores</small></h1>
