@@ -248,7 +248,7 @@
                            <li class="dropdown">
 					<a id="display-tiretaine" href="/tiretaine#main" style="z-index: 1;" class="dropdown-toggle selected-menu" data-toggle="collapse" data-target="#tiretaine"  data-collapse-group="sidemenu" <?php if ($balade == "tiretaine") echo 'aria-expanded="true"'; ?>><span class="pull-right"> La Tiretaine</span><span  style="font-size:16px;" class="showopacity glyphicon glyphicon-map-marker"></span></a>
 					<ul class="list-group playlist <?php if ($balade == "tiretaine") echo "in"; else echo "collapse"; ?>" style="clear: left;" id="tiretaine">
-                                            <li class="list-group-item"><p>Laissez-vous guider dans une fiction de création sonore réalisée par les étudiants de l'atelier du SUC, autour de la Tiretaine.</p>
+                                            <li class="list-group-item"><p>Bloqué dans une dimension parallèle obscure et étrange, l’auditeur devra suivre la voix d’un guide mystérieux et ainsi faire face à quelques obstacles et épreuves. Parviendra–t-il à s’échapper et à revenir dans le monde réel&nbsp;?</p>
                                             <p>Inauguration officielle le 30 mai 2017, départ à 18h square Bompart.</p>
                                             </li>
                                             <li role="separator" class="divider"></li>

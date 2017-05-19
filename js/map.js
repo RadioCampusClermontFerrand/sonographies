@@ -29,7 +29,7 @@ var mymap = L.map('main-map').setView([45.7537, 3.1136], 13);
 			color: '#D90E22',
 			fillColor: '#D90E22',
 			fillOpacity: 0.5
-		}).addTo(mymap).bindPopup("<strong><a href=\"/tiretaine\" id=\"display-tiretaine-map\">La Tiretaine</a></strong><br />Laissez-vous guider dans une fiction de création sonore réalisée par les étudiants de l'atelier du SUC, autour de la Tiretaine");
+		}).addTo(mymap).bindPopup("<strong><a href=\"/tiretaine\" id=\"display-tiretaine-map\">La Tiretaine</a></strong><br />Bloqué dans une dimension parallèle obscure et étrange, l’auditeur devra suivre la voix d’un guide mystérieux et ainsi faire face à quelques obstacles et épreuves. Parviendra–t-il à s’échapper et à revenir dans le monde réel ?");
 
                 var group = new L.featureGroup([campus, glyphs, rocheblanche, tiretaine]);
 
