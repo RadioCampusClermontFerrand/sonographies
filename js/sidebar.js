@@ -47,13 +47,27 @@
                 $("#display-rocheblanche").click(function() {
                     changeMap("rocheblanche-map");
                 });   
+                $("#display-tiretaine").click(function() {
+                    changeMap("tiretaine-map");
+                });  
+                $("#walktrip").click(function() {
+                    changeMap("walktrip-map");
+                });  
                 
-                                $("#display-glyphs-map").click(function() {
+                $("#display-glyphs-map").click(function() {
                     changeMap("glyphs-map");
                 });
                 $("#display-rocheblanche-map").click(function() {
-                    changeMap("glyphs-map");
+                    changeMap("rocheblanche-map");
                 });
-
+                $("#display-tiretaine-map").click(function() {
+                    changeMap("tiretaine-map");
+                });  
+                
+                $("#walktrip-map").click(function() {
+                    changeMap("walktrip-map");
+                });  
+                
+                
             
         });

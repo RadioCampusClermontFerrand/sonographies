@@ -12,6 +12,9 @@
         else if ($balade == "tiretaine") {
             $balade_fullname = "La Tiretaine";        
         }
+        else if ($balade == "walktrip") {
+            $balade_fullname = "Walk Trip de Recycl'art Auvergne";        
+        }
         else {
             $balade = "";
             $balade_fullname = "";
@@ -348,6 +351,204 @@
                                             </li>
 																		</ul>
                             </li>
+                            
+                            <li class="dropdown">
+					<a id="display-walktrip" href="/walktrip#main" style="z-index: 1;" class="dropdown-toggle selected-menu" data-toggle="collapse" data-target="#walktrip"  data-collapse-group="sidemenu" <?php if ($balade == "walktrip") echo 'aria-expanded="true"'; ?>><span class="pull-right"> Walk Trip de Recycl'art Auvergne</span><span  style="font-size:16px;" class="showopacity glyphicon glyphicon-map-marker"></span></a>
+					<ul class="list-group playlist <?php if ($balade == "walktrip") echo "in"; else echo "collapse"; ?>" style="clear: left;" id="walktrip">
+                                            <li class="list-group-item"><p>Radio Campus Clermont-Ferrand 93.3 vous propose une balade sonore à travers la ville et à travers les murs, le long du parcours Walk Trip de Recycl'art Auvergne. Découvrez et redécouvrez ces quelques lieux du centre de Clermont-Ferrand grâce à votre Smartphone. Branchez vous et laissez vous guider au fil des pastilles ! </p>
+                                            <p>Inauguration officielle le 25 mai 2019, départ à 10h30 place de la victoire.</p>
+                                            </li>
+                                            <li role="separator" class="divider"></li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 1 <span class="titre-pastille">Office de Tourisme</span>
+                                                            <span id="timer-b4p1">
+                                                                <span id="currentTime-b4p1">00:00</span> / 
+                                                                <span id="duration-b4p1">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/1 Intro Office Tourisme FINALE.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p1"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p1-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 2 <span class="titre-pastille">Place de la Victoire</span>
+                                                            <span id="timer-b4p2">
+                                                                <span id="currentTime-b4p2">00:00</span> / 
+                                                                <span id="duration-b4p2">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/2 Place de la Victoire.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p2"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p2-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>    
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 3 <span class="titre-pastille">Imaginarium</span>
+                                                            <span id="timer-b4p3">
+                                                                <span id="currentTime-b4p3">00:00</span> / 
+                                                                <span id="duration-b4p3">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/3 Imaginarium.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p3"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p3-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>    
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 4 <span class="titre-pastille">Cat Lounge</span>
+                                                            <span id="timer-b4p4">
+                                                                <span id="currentTime-b4p4">00:00</span> / 
+                                                                <span id="duration-b4p4">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/Cat Lounge.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p4"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p4-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>    
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 5 <span class="titre-pastille">Dynamite games</span>
+                                                            <span id="timer-b4p5">
+                                                                <span id="currentTime-b4p5">00:00</span> / 
+                                                                <span id="duration-b4p5">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/5 Dynamite games.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p5"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p5-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>    
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 6 <span class="titre-pastille">Aperetik</span>
+                                                            <span id="timer-b4p6">
+                                                                <span id="currentTime-b4p6">00:00</span> / 
+                                                                <span id="duration-b4p6">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/6 Aperetik.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p6"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p6-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>    
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 7 <span class="titre-pastille">Splif</span>
+                                                            <span id="timer-b4p7">
+                                                                <span id="currentTime-b4p7">00:00</span> / 
+                                                                <span id="duration-b4p7">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/splif.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p7"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p7-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>    
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 8 <span class="titre-pastille">Tapissier</span>
+                                                            <span id="timer-b4p8">
+                                                                <span id="currentTime-b4p8">00:00</span> / 
+                                                                <span id="duration-b4p8">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/8 tapissier.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p8"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p8-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>    
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 9 <span class="titre-pastille">Sonic Red &amp; Rue du Port</span>
+                                                            <span id="timer-b4p9">
+                                                                <span id="currentTime-b4p9">00:00</span> / 
+                                                                <span id="duration-b4p9">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/9 Sonic Red + Rue du Port.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p9"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p9-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>    
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 10 <span class="titre-pastille">Evil One Comics</span>
+                                                            <span id="timer-b4p10">
+                                                                <span id="currentTime-b4p10">00:00</span> / 
+                                                                <span id="duration-b4p10">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/10 Evil One Comics.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p10"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p10-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>    
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 11 <span class="titre-pastille">Marché</span>
+                                                            <span id="timer-b4p11">
+                                                                <span id="currentTime-b4p11">00:00</span> / 
+                                                                <span id="duration-b4p11">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/11 marche.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p11"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p11-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>    
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 12 <span class="titre-pastille">Des pions et merveilles</span>
+                                                            <span id="timer-b4p12">
+                                                                <span id="currentTime-b4p12">00:00</span> / 
+                                                                <span id="duration-b4p12">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/12 Des pions et merveilles.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p12"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p12-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>    
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 13 <span class="titre-pastille">L'armoire à cuillère</span>
+                                                            <span id="timer-b4p13">
+                                                                <span id="currentTime-b4p13">00:00</span> / 
+                                                                <span id="duration-b4p13">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/13 Armoire a Cuillere.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p13"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p13-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li>    
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                        <div class="list-group-item entry-2buttons">Pastille 14 <span class="titre-pastille">Incendie de boulangerie</span>
+                                                            <span id="timer-b4p14">
+                                                                <span id="currentTime-b4p14">00:00</span> / 
+                                                                <span id="duration-b4p14">-</span>
+                                                            </span>
+                                                        </div>
+                                                        <a href="balade4/14 Incendie de Boulangerie.mp3" class="list-group-item pull-right" download><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                        <a class="list-group-item pull-right play" id="b4p14"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-play"></span></a>
+                                                        <a class="list-group-item pull-right pause hide" id="b4p14-pause"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-pause"></span></a>
+                                                    </div>
+                                            </li> 
+                                            <li role="separator" class="divider"></li>
+                                            <li class="list-group-item"><div class="list-group-horizontal">
+                                                    <div class="list-group-item entry-1button">Télécharger toutes les pastilles</div>
+                                                    <a href="balade4/walktrip.zip" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    </div>
+                                            </li>
+                                            <!-- li class="list-group-item"><div class="list-group-horizontal">
+                                                    <div class="list-group-item entry-1button">Télécharger la carte à imprimer</div>
+                                                    <a href="balade2/SonographiesRocheBlanche.pdf" class="list-group-item pull-right"><span style="font-size:16px;" class="showopacity glyphicon glyphicon-download-alt"></span></a>
+                                                    </div>
+                                            </li -->
+                                            <li role="separator" class="divider"></li>
+                                            <li class="list-group-item">
+                                                <p>Radio Campus Clermont-Ferrand 2019<br />
+                                                    <strong>Production&nbsp;:</strong> <a href="http://campus-clermont.net">Radio Campus Clermont-Ferrand</a>
+                                                    <strong>Création&nbsp;:</strong> mai 2019
+                                                    </p>
+                                                <p class="comment">45° 46' 39.792 - 3° 5' 9.167 <a href="https://www.openstreetmap.org/?mlat=45.77772&amp;mlon=3.08588#map=17/45.77854/3.08594"><span class="showopacity glyphicon glyphicon-map-marker"></span></a></p>
+                                            </li>
+																		</ul>
+                            </li>
+                            
                             <li role="separator" class="divider"></li>
                             <li class="dropdown">
 					<a href="#" class="dropdown-toggle" ><span style="font-size:16px;" class="showopacity glyphicon glyphicon-info-sign"></span><span class="pull-right">Crédits</span></a>
@@ -369,6 +570,7 @@
         <img data-collapse-group="maps" id="glyphs-map" src="balade1/Parcours.png" class="img-content <?php if ($balade == "glyphs") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
         <img data-collapse-group="maps" id="rocheblanche-map" src="balade2/larocheblanche.png" class="img-content <?php if ($balade == "rocheblanche") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
         <img data-collapse-group="maps" id="tiretaine-map" src="balade3/tiretaine-site.png" class="img-content <?php if ($balade == "tiretaine") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
+        <img data-collapse-group="maps" id="walktrip-map" src="balade4/walktrip.png" class="img-content <?php if ($balade == "walktrip") echo "visible"; else echo "hidden"; ?>" alt="carte de la promenade" />
     </div>
     <div id="page-header">
     <h1><span class="red">SONO</span>GRAPHIES<small>balades sonores</small></h1>

@@ -25,13 +25,18 @@ var mymap = L.map('main-map').setView([45.7537, 3.1136], 13);
 			fillOpacity: 0.5
 		}).addTo(mymap).bindPopup("<strong><a href=\"/rocheblanche\" id=\"display-rocheblanche-map\">La Roche Blanche</a></strong><br />Balade sonore dans le village&nbsp;: deux classes de l’école Jules Ferry  et 1 comédien vous emmènent en balade enregistrée, entre imaginaire et réalité, et vous racontent le territoire de façon inattendue. Venez (re)découvrir le village comme vous ne l’avez jamais entendu&nbsp;!");
 
-				rocheblanche = new L.circle([45.78131, 3.07985], 200, {
+				tiretaine = new L.circle([45.78131, 3.07985], 200, {
 			color: '#D90E22',
 			fillColor: '#D90E22',
 			fillOpacity: 0.5
 		}).addTo(mymap).bindPopup("<strong><a href=\"/tiretaine\" id=\"display-tiretaine-map\">La Tiretaine</a></strong><br />Bloqué dans une dimension parallèle obscure et étrange, l’auditeur devra suivre la voix d’un guide mystérieux et ainsi faire face à quelques obstacles et épreuves. Parviendra–t-il à s’échapper et à revenir dans le monde réel ?");
 
-                var group = new L.featureGroup([campus, glyphs, rocheblanche, tiretaine]);
+    				walktrip = new L.circle([45.77772, 3.08588], 200, {
+			color: '#D90E22',
+			fillColor: '#D90E22',
+			fillOpacity: 0.5
+		}).addTo(mymap).bindPopup("<strong><a href=\"/walktrip\" id=\"display-walktrip-map\">Walk-trip de Recycl'art Auvergne</a></strong><br />Radio Campus Clermont-Ferrand 93.3 vous propose une balade sonore à travers la ville et à travers les murs, le long du parcours Walk Trip de Recycl'art Auvergne. Découvrez et redécouvrez ces quelques lieux du centre de Clermont-Ferrand grâce à votre Smartphone");
+                var group = new L.featureGroup([campus, glyphs, rocheblanche, walktrip]);
 
                 mymap.fitBounds(group.getBounds());
 
