@@ -397,13 +397,18 @@ for(var pastille in tracks) {
     <script>
       var mymap = L.map('main-map').setView([45.7537, 3.1136], 13);
 
-		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoiam10cml2aWFsIiwiYSI6ImNpcWdwZDQwZDAwOWlpMG1jdTNob2o4dGUifQ.KClZK1URNZMMqqzP4Bbb5g', {
+        L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.{ext}', {
+            attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+            subdomains: 'abcd',
+            minZoom: 0,
+            maxZoom: 20,
+            ext: 'png'
+        }).addTo(mymap);;
+
+		/*L.tileLayer('http://{s}.tile.stamen.com/toner/${z}/${x}/${y}.png', {
 			maxZoom: 18,
-			attribution: 'Données cartographiques &copy; contributeurs <a href="http://openstreetmap.org">OpenStreetMap</a>, ' +
-				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-				'Images © <a href="http://mapbox.com">Mapbox</a>',
-			id: 'mapbox.outdoors'
-		}).addTo(mymap);
+			attribution: 'donn&eacute;es &copy; <a href="//osm.org/copyright">OpenStreetMap</a>/ODbL - rendu <a href="https://mapnik.org/">OSM Mapnik</a>'
+		}).addTo(mymap);*/
 
 
 		campus = new L.marker([45.77506, 3.07856]).addTo(mymap)
